@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "module": "commonjs",
+        "target": "ES2021",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "rootDirs": [
+            "src"
+        ],
+        "baseUrl": "src",
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "skipLibCheck": true,
+        "noImplicitAny": true,
+        "types": [
+            "node",
+            "jest"
+        ]
+    }
+}
