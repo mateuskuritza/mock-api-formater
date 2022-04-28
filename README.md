@@ -1,4 +1,4 @@
-### Instruções para instalação:
+# Instruções para instalação:
 
 OBS: É necessário possuir Docker instalado.
 
@@ -21,7 +21,9 @@ npm run dev
  
 3. Nesse momento o servidor estará rodando na porta 4000 (se não for específicada outra como variável de ambiente PORT) e pode ser acessado na URL <em>localhost:4000</em>
 
-### Uso:
+<br>
+
+# Uso:
 
 Até o momento foi implementada apenas uma rota:
 
@@ -32,3 +34,13 @@ Até o momento foi implementada apenas uma rota:
 Essa rota retorna os usuários obtidos a partir da API fake (que passa a rodar após o comando <em>docker-compose up</em> em **localhost:8080/users**) formatados seguindo algumas regras de data, status e pagamento.
 
 </details>
+
+<br>
+
+# Testes
+
+É possível rodar os testes localmente com o comando:
+
+```
+npm run test
+```
